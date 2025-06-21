@@ -249,6 +249,143 @@ const Contacts = () => {
           <Contact/>
         </section>
       </main>
+      {isOpen && (
+        <div
+          className="fixed left-0 w-full h-screen overflow-hidden bg-transparent"
+          onClick={() => setOpen(false)}
+        >
+          <div className="fixed left-0 right-0 top-[5rem] bg-zinc-900/70 p-2 z-50">
+            <ul className="grid gap-2">
+              <li className="w-full rounded-xl">
+                <NavLink
+                  to="/"
+                  className="flex items-center justify-between w-full p-4 rounded-xl bg-zinc-900/80 text-white/90"
+                >
+                  <span className="flex gap-1 text-lg">{t("header.home")}</span>
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    strokeWidth="0"
+                    viewBox="0 0 24 24"
+                    className="text-2xl"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M12.71 2.29a1 1 0 0 0-1.42 0l-9 9a1 1 0 0 0 0 1.42A1 1 0 0 0 3 13h1v7a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7h1a1 1 0 0 0 1-1 1 1 0 0 0-.29-.71zM6 20v-9.59l6-6 6 6V20z" />
+                  </svg>
+                </NavLink>
+              </li>
+              <li className="w-full rounded-xl">
+                <NavLink
+                  to="/about"
+                  className="flex items-center justify-between w-full p-4 rounded-xl bg-zinc-900/80 text-white/90"
+                  onClick={() => setOpen(false)}
+                >
+                  <span className="flex gap-1 text-lg">{t("header.about")}</span>
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    strokeWidth="0"
+                    viewBox="0 0 256 256"
+                    className="text-2xl"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M128,20A108,108,0,0,0,31.85,177.23L21,209.66A20,20,0,0,0,46.34,235l32.43-10.81A108,108,0,1,0,128,20Zm0,192a84,84,0,0,1-42.06-11.27,12,12,0,0,0-6-1.62,12.1,12.1,0,0,0-3.8.62l-29.79,9.93,9.93-29.79a12,12,0,0,0-1-9.81A84,84,0,1,1,128,212Z" />
+                  </svg>
+                </NavLink>
+              </li>
+              <li className="w-full rounded-xl">
+                <NavLink
+                  to="/products"
+                  className="flex items-center justify-between w-full p-4 rounded-xl bg-zinc-900/80 text-white/90"
+                  onClick={() => setOpen(false)}
+                >
+                  <span className="flex gap-1 text-lg">{t("header.products")}</span>
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    strokeWidth="0"
+                    viewBox="0 0 24 24"
+                    className="text-2xl"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M19 21V3H21V21H19ZM9 15H15V18H9V15ZM8 13C7.44772 13 7 13.4477 7 14V19C7 19.5523 7.44772 20 8 20H16C16.5523 20 17 19.5523 17 19V14C17 13.4477 16.5523 13 16 13H8ZM5 9H15V6H5V9ZM3 5C3 4.44772 3.44772 4 4 4H16C16.5523 4 17 4.44772 17 5V10C17 10.5523 16.5523 11 16 11H4C3.44772 11 3 10.5523 3 10V5Z" />
+                  </svg>
+                </NavLink>
+              </li>
+              <li className="w-full rounded-xl">
+                <NavLink
+                  to="/photogallery"
+                  className="flex items-center justify-between w-full p-4 rounded-xl bg-zinc-900/80 text-white/90"
+                  onClick={() => setOpen(false)}
+                >
+                  <span className="flex gap-1 text-lg">{t("header.photogallery")}</span>
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    strokeWidth="0"
+                    viewBox="0 0 24 24"
+                    className="text-2xl"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M19 21V3H21V21H19ZM9 15H15V18H9V15ZM8 13C7.44772 13 7 13.4477 7 14V19C7 19.5523 7.44772 20 8 20H16C16.5523 20 17 19.5523 17 19V14C17 13.4477 16.5523 13 16 13H8ZM5 9H15V6H5V9ZM3 5C3 4.44772 3.44772 4 4 4H16C16.5523 4 17 4.44772 17 5V10C17 10.5523 16.5523 11 16 11H4C3.44772 11 3 10.5523 3 10V5Z" />
+                  </svg>
+                </NavLink>
+              </li>
+              <li className="w-full rounded-xl">
+                <NavLink
+                  to="/news"
+                  className="flex items-center justify-between w-full p-4 rounded-xl bg-zinc-900/80 text-white/90"
+                  onClick={() => setOpen(false)}
+                >
+                  <span className="flex gap-1 text-lg">{t("header.news")}</span>
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    strokeWidth="0"
+                    viewBox="0 0 24 24"
+                    className="text-2xl"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M19 21V3H21V21H19ZM9 15H15V18H9V15ZM8 13C7.44772 13 7 13.4477 7 14V19C7 19.5523 7.44772 20 8 20H16C16.5523 20 17 19.5523 17 19V14C17 13.4477 16.5523 13 16 13H8ZM5 9H15V6H5V9ZM3 5C3 4.44772 3.44772 4 4 4H16C16.5523 4 17 4.44772 17 5V10C17 10.5523 16.5523 11 16 11H4C3.44772 11 3 10.5523 3 10V5Z" />
+                  </svg>
+                </NavLink>
+              </li>
+              <li className="w-full rounded-xl">
+                <NavLink
+                  to="/contacts"
+                  className="flex items-center justify-between w-full p-4 rounded-xl bg-zinc-900/80 text-white/90"
+                  onClick={() => setOpen(false)}
+                >
+                  <span className="flex gap-1 text-lg">{t("header.contacts")}</span>
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    strokeWidth="0"
+                    viewBox="0 0 24 24"
+                    className="text-2xl"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path fill="none" d="M0 0h24v24H0V0z" />
+                    <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V6h16v12zM4 0h16v2H4zm0 22h16v2H4zm8-10a2.5 2.5 0 0 0 0-5 2.5 2.5 0 0 0 0 5zm0-3.5c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm5 7.49C17 13.9 13.69 13 12 13s-5 .9-5 2.99V17h10v-1.01zm-8.19-.49c.61-.52 2.03-1 3.19-1 1.17 0 2.59.48 3.2 1H8.81z" />
+                  </svg>
+                </NavLink>
+              </li>
+            </ul>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
