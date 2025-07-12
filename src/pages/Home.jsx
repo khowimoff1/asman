@@ -593,154 +593,210 @@ const Home = () => {
                       {t(selectedItem.title)}
                     </div>
                   </div>
-                  <div className="flex-1 pt-3 space-y-2 text-sm">
-                    {selectedItem?.DescriptionT &&
-                      selectedItem?.Description && (
+                  <div className="flex-1 ">
+                    <div className="pt-3 space-y-2 text-sm">
+                      {selectedItem?.DescriptionT &&
+                        selectedItem?.Description && (
+                          <div className="mb-2">
+                            <span className="font-semibold">
+                              {t(selectedItem.DescriptionT)}:
+                            </span>
+                            <span className="pl-1">
+                              {t(selectedItem.Description)}
+                            </span>
+                          </div>
+                        )}
+                      {selectedItem?.CharacteristicT &&
+                        selectedItem?.Characteristic && (
+                          <div className="mb-2">
+                            <span className="font-semibold">
+                              {t(selectedItem.CharacteristicT)}:
+                            </span>
+                            <span className="pl-1">
+                              {t(selectedItem.Characteristic)}
+                            </span>
+                          </div>
+                        )}
+                      {selectedItem?.ApplyT && selectedItem?.Apply && (
                         <div className="mb-2">
                           <span className="font-semibold">
-                            {t(selectedItem.DescriptionT)}:
+                            {t(selectedItem.ApplyT)}:
+                          </span>
+                          <span className="pl-1">{t(selectedItem.Apply)}</span>
+                        </div>
+                      )}
+                      {selectedItem?.MethodsT && selectedItem?.Methods && (
+                        <div className="mb-2">
+                          <span className="font-semibold">
+                            {t(selectedItem.MethodsT)}:
                           </span>
                           <span className="pl-1">
-                            {t(selectedItem.Description)}
+                            {t(selectedItem.Methods)}
                           </span>
                         </div>
                       )}
-                    {selectedItem?.CharacteristicT &&
-                      selectedItem?.Characteristic && (
+                      {selectedItem?.UsageT && selectedItem?.Usage && (
                         <div className="mb-2">
                           <span className="font-semibold">
-                            {t(selectedItem.CharacteristicT)}:
+                            {t(selectedItem.UsageT)}:
+                          </span>
+                          <span className="pl-1">{t(selectedItem.Usage)}</span>
+                        </div>
+                      )}
+                      {selectedItem?.InstructionsT &&
+                        selectedItem?.Instructions && (
+                          <div className="mb-2">
+                            <span className="font-semibold">
+                              {t(selectedItem.InstructionsT)}:
+                            </span>
+                            <span className="pl-1">
+                              {t(selectedItem.Instructions)}
+                            </span>
+                          </div>
+                        )}
+                      {selectedItem?.ConsumptionT &&
+                        selectedItem?.Consumption && (
+                          <div className="mb-2">
+                            <span className="font-semibold">
+                              {t(selectedItem.ConsumptionT)}:
+                            </span>
+                            <span className="pl-1">
+                              {t(selectedItem.ConsumptionT)}
+                            </span>
+                          </div>
+                        )}
+                      {selectedItem?.ContentT && selectedItem?.Content && (
+                        <div className="mb-2">
+                          <span className="font-semibold">
+                            {t(selectedItem.ContentT)}:
                           </span>
                           <span className="pl-1">
-                            {t(selectedItem.Characteristic)}
+                            {t(selectedItem.Content)}
                           </span>
                         </div>
                       )}
-                    {selectedItem?.ApplyT && selectedItem?.Apply && (
-                      <div className="mb-2">
-                        <span className="font-semibold">
-                          {t(selectedItem.ApplyT)}:
-                        </span>
-                        <span className="pl-1">{t(selectedItem.Apply)}</span>
-                      </div>
-                    )}
-                    {selectedItem?.MethodsT && selectedItem?.Methods && (
-                      <div className="mb-2">
-                        <span className="font-semibold">
-                          {t(selectedItem.MethodsT)}:
-                        </span>
-                        <span className="pl-1">{t(selectedItem.Methods)}</span>
-                      </div>
-                    )}
-                    {selectedItem?.UsageT && selectedItem?.Usage && (
-                      <div className="mb-2">
-                        <span className="font-semibold">
-                          {t(selectedItem.UsageT)}:
-                        </span>
-                        <span className="pl-1">{t(selectedItem.Usage)}</span>
-                      </div>
-                    )}
-                    {selectedItem?.InstructionsT &&
-                      selectedItem?.Instructions && (
+                      {selectedItem?.SolventT && selectedItem?.Solvent && (
                         <div className="mb-2">
                           <span className="font-semibold">
-                            {t(selectedItem.InstructionsT)}:
+                            {t(selectedItem.SolventT)}:
                           </span>
                           <span className="pl-1">
-                            {t(selectedItem.Instructions)}
+                            {t(selectedItem.Solvent)}
                           </span>
                         </div>
                       )}
-                    {selectedItem?.ConsumptionT &&
-                      selectedItem?.Consumption && (
+                      {selectedItem?.FlammabilityT &&
+                        selectedItem?.Flammability && (
+                          <div className="mb-2">
+                            <span className="font-semibold">
+                              {t(selectedItem.FlammabilityT)}:
+                            </span>
+                            <span className="pl-1">
+                              {t(selectedItem.Flammability)}
+                            </span>
+                          </div>
+                        )}
+                      {selectedItem?.ApplicationT &&
+                        selectedItem?.Application && (
+                          <div className="mb-2">
+                            <span className="font-semibold">
+                              {t(selectedItem.ApplicationT)}:
+                            </span>
+                            <span className="pl-1">
+                              {t(selectedItem.Application)}
+                            </span>
+                          </div>
+                        )}
+                      {selectedItem?.BestT && selectedItem?.Best && (
                         <div className="mb-2">
                           <span className="font-semibold">
-                            {t(selectedItem.ConsumptionT)}:
+                            {t(selectedItem.BestT)}:
+                          </span>
+                          <span className="pl-1">{t(selectedItem.Best)}</span>
+                        </div>
+                      )}
+                      {selectedItem?.StorageT && selectedItem?.Storage && (
+                        <div className="mb-2">
+                          <span className="font-semibold">
+                            {t(selectedItem.StorageT)}:
                           </span>
                           <span className="pl-1">
-                            {t(selectedItem.ConsumptionT)}
+                            {t(selectedItem.Storage)}
                           </span>
                         </div>
                       )}
-                    {selectedItem?.ContentT && selectedItem?.Content && (
-                      <div className="mb-2">
-                        <span className="font-semibold">
-                          {t(selectedItem.ContentT)}:
-                        </span>
-                        <span className="pl-1">{t(selectedItem.Content)}</span>
-                      </div>
-                    )}
-                    {selectedItem?.SolventT && selectedItem?.Solvent && (
-                      <div className="mb-2">
-                        <span className="font-semibold">
-                          {t(selectedItem.SolventT)}:
-                        </span>
-                        <span className="pl-1">{t(selectedItem.Solvent)}</span>
-                      </div>
-                    )}
-                    {selectedItem?.FlammabilityT &&
-                      selectedItem?.Flammability && (
+                      {selectedItem?.ManufacturerT &&
+                        selectedItem?.Manufacturer && (
+                          <div className="mb-2">
+                            <span className="font-semibold">
+                              {t(selectedItem.ManufacturerT)}:
+                            </span>
+                            <span className="pl-1">
+                              {t(selectedItem.Manufacturer)}
+                            </span>
+                          </div>
+                        )}
+                      {selectedItem?.CompleteT && selectedItem?.Complete && (
                         <div className="mb-2">
                           <span className="font-semibold">
-                            {t(selectedItem.FlammabilityT)}:
+                            {t(selectedItem.CompleteT)}:
                           </span>
                           <span className="pl-1">
-                            {t(selectedItem.Flammability)}
+                            {t(selectedItem.Complete)}
                           </span>
                         </div>
                       )}
-                    {selectedItem?.ApplicationT &&
-                      selectedItem?.Application && (
-                        <div className="mb-2">
-                          <span className="font-semibold">
-                            {t(selectedItem.ApplicationT)}:
-                          </span>
-                          <span className="pl-1">
-                            {t(selectedItem.Application)}
-                          </span>
-                        </div>
+                    </div>
+                    <div className="flex flex-wrap items-center justify-center gap-4 mt-10">
+                      {selectedItem?.g1 && (
+                        <img
+                          src={selectedItem.g1}
+                          alt="dur image"
+                          className="w-[180px] aspect-square object-cover rounded-lg"
+                        />
                       )}
-                    {selectedItem?.BestT && selectedItem?.Best && (
-                      <div className="mb-2">
-                        <span className="font-semibold">
-                          {t(selectedItem.BestT)}:
-                        </span>
-                        <span className="pl-1">{t(selectedItem.Best)}</span>
-                      </div>
-                    )}
-                    {selectedItem?.StorageT && selectedItem?.Storage && (
-                      <div className="mb-2">
-                        <span className="font-semibold">
-                          {t(selectedItem.StorageT)}:
-                        </span>
-                        <span className="pl-1">{t(selectedItem.Storage)}</span>
-                      </div>
-                    )}
-                    {selectedItem?.ManufacturerT &&
-                      selectedItem?.Manufacturer && (
-                        <div className="mb-2">
-                          <span className="font-semibold">
-                            {t(selectedItem.ManufacturerT)}:
-                          </span>
-                          <span className="pl-1">
-                            {t(selectedItem.Manufacturer)}
-                          </span>
-                        </div>
+                      {selectedItem?.g2 && (
+                        <img
+                          src={selectedItem.g2}
+                          alt="dur image"
+                          className="w-[180px] aspect-square object-cover rounded-lg"
+                        />
                       )}
-                    {selectedItem?.CompleteT && selectedItem?.Complete && (
-                      <div className="mb-2">
-                        <span className="font-semibold">
-                          {t(selectedItem.CompleteT)}:
-                        </span>
-                        <span className="pl-1">{t(selectedItem.Complete)}</span>
-                      </div>
-                    )}
+                      {selectedItem?.g3 && (
+                        <img
+                          src={selectedItem.g3}
+                          alt="dur image"
+                          className="w-[180px] aspect-square object-cover rounded-lg"
+                        />
+                      )}
+                      {selectedItem?.g4 && (
+                        <img
+                          src={selectedItem.g4}
+                          alt="dur image"
+                          className="w-[180px] aspect-square object-cover rounded-lg"
+                        />
+                      )}
+                      {selectedItem?.g5 && (
+                        <img
+                          src={selectedItem.g5}
+                          alt="dur image"
+                          className="w-[180px] aspect-square object-cover rounded-lg"
+                        />
+                      )}
+                      {selectedItem?.g6 && (
+                        <img
+                          src={selectedItem.g6}
+                          alt="dur image"
+                          className="w-[180px] aspect-square object-cover rounded-lg"
+                        />
+                      )}
+                    </div>
                   </div>
                 </div>
                 <footer className="flex justify-end gap-2 p-3">
                   <button
                     onClick={() => (setModalContact(true), closeModal())}
-                    className="w-full px-8 py-2 text-sm font-medium text-white shadow-md bg-main hover:bg-main/90 rounded-2xl md:w-1/2"
+                    className="w-full px-8 py-2 text-sm font-medium text-white shadow-md bg-main hover:bg-main/90 rounded-2xl md:w-1/4"
                   >
                     {t("footer.Contact")}
                   </button>
