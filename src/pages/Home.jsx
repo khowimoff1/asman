@@ -47,10 +47,9 @@ const Home = () => {
   // paginton
   const paginationRef = useRef(null);
   const [swiperReady, setSwiperReady] = useState(false);
+
   useEffect(() => {
-    if (paginationRef.current) {
-      setSwiperReady(true);
-    }
+    setTimeout(() => setSwiperReady(true), 100);
   }, []);
 
   const news = [
@@ -436,9 +435,8 @@ const Home = () => {
                     el: paginationRef.current,
                   }}
                   onSwiper={(swiper) => {
-                    if (swiper.params?.pagination && paginationRef.current) {
+                    if (swiper.params.pagination && paginationRef.current) {
                       swiper.params.pagination.el = paginationRef.current;
-                      swiper.pagination.init();
                       swiper.pagination.update();
                     }
                   }}
@@ -1502,7 +1500,10 @@ const Home = () => {
         </section>
         <section className="px-4 py-10">
           <div className="w-full xl:container">
-            <div className="grid items-start gap-5 md:grid-cols-2" data-aos="fade-up">
+            <div
+              className="grid items-start gap-5 md:grid-cols-2"
+              data-aos="fade-up"
+            >
               <Accordion
                 expanded={expanded === "panel1"}
                 onChange={handleChange("panel1")}

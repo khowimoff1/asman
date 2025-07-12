@@ -39,6 +39,7 @@
     "title8": "Travertin - strukturaviy dekorativ va pardozlash gipsi",
     "title9": "Gruntovka Astar",
     "title10": "Mineral plaster",
+    "title11": "Luno",
     "1": {
       "CharacteristicT": "Xarakteristika",
       "Characteristic": "Yuqori sifatli akril bo'yoq. Ob-havo va harorat o'zgarishlariga chidamliligi bilan ajralib turadi. Qoplama yuqori yopishqoqlikka, foydalanishda barqarorlikka, yetarli o'zgaruvchanlikka va suvga chidamlilikning past darajasiga hamda yuqori oppoqlikka ega.",
@@ -88,8 +89,8 @@
       "Best before": "Ishlab chiqarilgan kundan boshlab 12 oy.",
       "Storage conditionsT": "Saqlash sharoiti",
       "Storage conditions": "Mahsulotni +5°C dan past va +25°C dan yuqori bo‘lmagan haroratda, yopiq idishda saqlang.",
-      "CompleteT":"To'liq qurish davri",
-      "Complete":"12-24 soat."
+      "CompleteT": "To'liq qurish davri",
+      "Complete": "12-24 soat."
     },
     "5": {
       "DescriptionT": "Tavsif",
@@ -126,6 +127,16 @@
       "Best before": "Ishlab chiqarilgan kundan boshlab 12 oy.",
       "Storage conditionsT": "Saqlash shartlari",
       "Storage conditions": "Mahsulotni yopiq idishda +5°C dan past va +25°C dan yuqori bo‘lmagan haroratda saqlang."
+    },
+    "11": {
+      "DescriptionT": "Tavsif",
+      "Description": "Qimmatbaho rangli ko'rinishni yaratadigan dekorativ bo'yoq.Intererda ifodalab bo'lmaydigan ma'nzara ta'siriga boy va juda kuchli rang yaratadi.",
+      "ContentT": "Tarkibi",
+      "Content": "Suv, konservant saqlovchi modda, akrill birlashtiruvchi, qo'shimcha hissa, dur pigmenti...",
+      "UsageT": "Qo‘llanilishi",
+      "Usage":"Bo'yogni qo'llashdan oldin aralashtirish.Bo'yoqni qo'llash jarayoni bo'yalayotgan sirt va havo harorati +10°C dan kam bo'lmagan va havoning nisbiy namligi 80% dan oshmagan holda amalga oshiriladi.",
+      "ConsumptionT": "Sarf",
+      "Consumption": "100-150g/m2 1 ta qatlamga. 7 m2 qatlamni bo'yashga 1kg yetarli. Ish jarayonida himoya vositasidan foydalanish.(Rezinka qo'lqoplar, ximoya ko'zoynak).Shamollatilgan maydonda foydalanish. Ko'zga tushgan holatda oqar suvda yuvib, shifokorga murojat qiling. Ishlab chiqaruvchi mahsulotdan noto'g'ri foydalanilgan holatda xamda uni yo'rignomada ko'rsatilmagan shart-sharoit va boshga magsadlarda ishlatilganga javobgar emas. Shubha tug'ilgan holatda mahsulotni mustaqil ravishda sinovdan o'tkazish yoki ishlab chiqaruvchiga murojat gilish kerak."
     }
   },
   "choose": {
@@ -189,13 +200,15 @@
     "Address": "Manzil",
     "Uzbekistan": "O‘zbekiston, Farg‘ona viloyati, “Qo‘qon” erkin iqtisodiy zonasi"
   },
-  "about":{
-    "All products":"Barcha mahsulotlar",
-    "Emulsion":"Emulsiya",
-    "Dur plaster":"Dur plaster",
-    "Lak":"Lak",
-    "Travertine":"Travertin",
-    "Primer":"Gruntofka",
-    "Mineral plaster":"Mineral plaster"
+  "about": {
+    "All products": "Barcha mahsulotlar",
+    "Emulsion": "Emulsiya",
+    "Dur plaster": "Dur plaster",
+    "Pearl": "Marvarid",
+    "Lak": "Lak",
+    "Travertine": "Travertin",
+    "Primer": "Gruntofka",
+    "Mineral plaster": "Mineral plaster",
+    "Luno": "Luno"
   }
 }

@@ -39,6 +39,7 @@
     "title8": "Travertine is a structural decorative and finishing plaster",
     "title9": "Primer Astar",
     "title10": "Mineral plaster",
+    "title11": "Luno",
     "1": {
       "CharacteristicT": "Characteristic",
       "Characteristic": "High quality acrylic paint. It is distinguished by its resistance to weather and temperature changes. The coating has a high level of viscosity, stability during use, sufficient variability and low water erosion, and a high level of whiteness.",
@@ -124,6 +125,16 @@
       "Best before": "From the date of manufacture 12 months.",
       "Storage conditionsT": "Storage conditions",
       "Storage conditions": "in a closed container at a temperature not lower than +5°C and not higher than + 25'°C"
+    },
+    "11": {
+      "DescriptionT": "Description",
+      "Description": "A decorative paint that creates a luxurious colorful appearance. It creates a rich and very intense color effect in the interior, full of indescribable landscape impressions.",
+      "ContentT": "Content",
+      "Content": "Water, preservative, acrylic binder, additives, pearl pigment...",
+      "UsageT": "Usage",
+      "Usage": "Stir the paint before application. The application process should be carried out when the surface and air temperature are not below +10°C and the relative humidity does not exceed 80%.",
+      "ConsumptionT": "Consumption",
+      "Consumption": "100-150g/m² per layer. 1kg is enough to cover a 7m² layer. Use protective equipment during application (rubber gloves, safety goggles). Use in a well-ventilated area. In case of contact with eyes, rinse with running water and consult a doctor. The manufacturer is not responsible for misuse of the product or use under conditions not specified in the instructions. In case of doubt, test the product independently or consult the manufacturer."
     }
   },
   "choose": {
@@ -187,13 +198,15 @@
     "Address": "Address",
     "Uzbekistan": "Uzbekistan, Fergana region, Free economic zone Kokand"
   },
-  "about":{
-    "All products":"All products",
-    "Emulsion":"Emulsion",
-    "Dur plaster":"Dur plaster",
-    "Lak":"Lak",
-    "Travertine":"Travertine",
-    "Primer":"Primer",
-    "Mineral plaster":"Mineral plaster"
+  "about": {
+    "All products": "All products",
+    "Emulsion": "Emulsion",
+    "Dur plaster": "Dur plaster",
+    "Pearl": "Pearl",
+    "Lak": "Lak",
+    "Travertine": "Travertine",
+    "Primer": "Primer",
+    "Mineral plaster": "Mineral plaster",
+    "Luno": "Luno"
   }
 }
