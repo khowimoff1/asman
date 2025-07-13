@@ -24,7 +24,7 @@ const App = () => {
     }, []);
 
   return (
-    <div className="overflow-x-hidden" data-aos-easing="ease" data-aos-duration="600" data-aos-delay="200">
+    <div className="overflow-x-hidden font-montserrat" data-aos-easing="ease" data-aos-duration="600" data-aos-delay="200">
       <ScrollToTop />
       <main>
         <Outlet />

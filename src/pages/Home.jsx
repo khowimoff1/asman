@@ -189,7 +189,7 @@ const Home = () => {
             className={`${isMobile ? "" : "h-[45px]"}`}
           />
         </NavLink>
-        <nav className="flex items-center gap-4 text-sm tracking-wider font-extralight">
+        <nav className="flex items-center gap-4 text-sm tracking-wider">
           <ul
             className={`lg:flex items-center gap-6 hidden ${
               isMobile ? "text-white" : "text-zinc-500"
@@ -473,7 +473,7 @@ const Home = () => {
         </section>
         <section className="flex flex-col justify-between px-4 py-0 md:py-8 md:flex-row">
           <div data-aos="fade-right">
-            <h1 className="font-normal text-7xl md:text-9xl">
+            <h1 className="font-news text-7xl md:text-9xl">
               {t("main.asman")}
             </h1>
             <div className="mt-10">
@@ -501,7 +501,7 @@ const Home = () => {
           </div>
         </section>
         <section className="px-4 py-6 md:py-16">
-          <h1 className="font-medium text-[3rem]" data-aos="fade-right">
+          <h1 className="primary-title" data-aos="fade-right">
             {t("main.ours")}{" "}
             <span className="text-[rgb(54_51_145)]">{t("main.products")}</span>
           </h1>
@@ -940,7 +940,7 @@ const Home = () => {
           )}
         </section>
         <section className="px-4 py-6 md:py-16">
-          <h1 className="font-medium text-[3rem]" data-aos="fade-right">
+          <h1 className="primary-title" data-aos="fade-right">
             {t("main.About")}{" "}
             <span className="text-[rgb(54_51_145)]">{t("main.us")}</span>
           </h1>
@@ -964,7 +964,7 @@ const Home = () => {
               className="md:w-[49%] w-full flex flex-col-reverse md:flex-col md:mt-0 mt-8"
               data-aos="fade-left"
             >
-              <p className="p-2 tracking-[0.01em] max-md:text-sm text-lg font-[350]">
+              <p className="p-2 max-md:text-sm text-lg font-[350]">
                 {t("main.aText2")}
               </p>
               <img
@@ -976,7 +976,7 @@ const Home = () => {
           </div>
         </section>
         <section className="px-4 py-6 md:py-12">
-          <h1 className="font-medium text-[3rem]" data-aos="fade-right">
+          <h1 className="primary-title" data-aos="fade-right">
             {t("choose.why")}{" "}
             <span className="text-[rgb(54_51_145)]">{t("choose.why1")}</span>
           </h1>
