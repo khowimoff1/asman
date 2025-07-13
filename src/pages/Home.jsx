@@ -530,7 +530,7 @@ const Home = () => {
               </button>
             </NavLink>
           </div>
-          <div className="grid gap-5 grid-cols-[repeat(auto-fit,_15rem)] justify-evenly">
+          <div className="items-list-grid justify-evenly">
             {Data.map((item, index) => (
               <article
                 className="max-w-[16rem]"
