@@ -24,11 +24,11 @@ const Photogallery = () => {
     }, []);
 
   const images = [
-    { src: "/Images/01-BOGOJiGn.png" },
-    { src: "/Images/02-CPnyTav4.png" },
-    { src: "/Images/05-DjZSkuXM.png" },
-    { src: "/Images/07-BARouibF.png" },
-    { src: "/Images/08-DAOkn6-W.png" },
+    { src: "/Images/t2.jpg" },
+    { src: "/Images/t1.jpg" },
+    { src: "/Images/l1.webp" },
+    { src: "/Images/e1.jpg" },
+    { src: "/Images/e2.webp" },
   ];
   const [open2, setOpen2] = useState(false);
   const [index, setIndex] = useState(0);
