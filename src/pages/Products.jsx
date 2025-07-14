@@ -97,7 +97,6 @@ const Products = () => {
                     { key: "Lak", label: t("about.Lak") },
                     { key: "Pearl", label: t("about.Pearl") },
                     { key: "Travertine", label: t("about.Travertine") },
-                    { key: "Primer", label: t("about.Primer") },
                     {
                       key: "Mineral plaster",
                       label: t("about.Mineral plaster"),
