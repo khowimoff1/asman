@@ -131,7 +131,7 @@ const Home = () => {
     setIsSubmitting(true);
 
     const token = "8097191501:AAFSH7489SOVvqTz6KLyRZyq2iPGSQBAk4o";
-    const chatId = "5235241793";
+    const chatId = "-1002781511791";
 
     const text = `
       📩 Yangi murojaat:
@@ -417,7 +417,7 @@ const Home = () => {
                       {t("home.swiper3")}
                     </button>
                   </NavLink>
-                  <NavLink to="/products">
+                  <NavLink to="/contacts">
                     <button className="px-5 py-2 text-sm font-medium text-white transition-all bg-yellow-400 hover:bg-opacity-80 rounded-3xl">
                       {t("home.swiper4")}
                     </button>

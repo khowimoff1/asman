@@ -38,7 +38,7 @@ const ContactForm = () => {
     setIsSubmitting(true);
 
     const token = "8097191501:AAFSH7489SOVvqTz6KLyRZyq2iPGSQBAk4o";
-    const chatId = "5235241793";
+    const chatId = "-1002781511791";
 
     const text = `
     📩 Yangi murojaat:
