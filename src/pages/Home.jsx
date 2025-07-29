@@ -171,9 +171,9 @@ const Home = () => {
   const [index, setIndex] = useState(0);
 
   return (
-    <div>
+    <div className="container">
       <header
-        className="w-full  mx-auto max-w-[88rem] py-4 pl-10 flex justify-between items-center z-20 relative max-xl:bg-zinc-900/70"
+        className="relative z-20 flex items-center justify-between py-4 pl-10 max-xl:bg-zinc-900/70"
         data-aos="fade-down"
       >
         <NavLink to="/">
@@ -181,7 +181,7 @@ const Home = () => {
             src={
               isMobile
                 ? "/Images/logo-white-2PIdZK-S.png"
-                : "/Images/logo-black-BroJ19rH.png"
+                : "/Images/logo-black-BroJ19rH.jpg"
             }
             alt="logo"
             width={96}
@@ -395,7 +395,7 @@ const Home = () => {
           </div>
         </nav>
       </header>
-      <main className="mx-auto max-w-[88rem] w-full ">
+      <main>
         <section className="flex max-xl:min-h-svh xl:my-3 xl:h-[clamp(55rem,95vh,60rem)]">
           <div className="relative max-w-full mx-auto -top-20">
             <div className="md:h-full h-[100%]" data-aos="zoom-out">
@@ -456,6 +456,26 @@ const Home = () => {
                     <div className="relative w-full h-full">
                       <img
                         src="/Images/01-BOGOJiGn.png"
+                        alt="Slide 2"
+                        className="object-cover w-full h-full lg:rounded-none xl:rounded-3xl "
+                      />
+                      <div className="absolute inset-0 bg-black/30 lg:rounded-none xl:rounded-3xl " />
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="relative w-full h-full">
+                      <img
+                        src="/Images/t2.jpg"
+                        alt="Slide 2"
+                        className="object-cover w-full h-full lg:rounded-none xl:rounded-3xl "
+                      />
+                      <div className="absolute inset-0 bg-black/30 lg:rounded-none xl:rounded-3xl " />
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="relative w-full h-full">
+                      <img
+                        src="/Images/t4.jpg"
                         alt="Slide 2"
                         className="object-cover w-full h-full lg:rounded-none xl:rounded-3xl "
                       />

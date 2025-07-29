@@ -61,7 +61,7 @@ const NewsDetails = () => {
         style={{ willChange: "auto", transform: "translateY(8px)" }}
       >
         <div
-          className="mx-auto max-w-[88rem] w-full max-sm:px-0"
+          className="container max-sm:px-0"
           data-aos="fade-down "
         >
           <div className="flex items-center justify-between w-full p-2 shadow-sm bg-main md:p-3 rounded-xl">
@@ -158,7 +158,7 @@ const NewsDetails = () => {
           </div>
         </div>
       </header>
-      <main className="mx-auto max-w-[88rem] w-full pt-10 px-4">
+      <main className="container px-4 pt-10">
         <section className="w-full ">
           <div>
             <button

@@ -30,7 +30,7 @@ const App = () => {
         <Outlet />
       </main>
       <footer className="px-4 py-10 bg-main">
-        <div className="container mx-auto max-w-[88rem]">
+        <div className="container">
           <div className="grid items-start gap-5 lg:grid-flow-col xl:gap-16">
             <NavLink to="/" className="flex-shrink-0 w-60">
               <img

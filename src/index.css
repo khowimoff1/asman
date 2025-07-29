@@ -22,13 +22,13 @@
   backdrop-filter: blur(6px);
   border-radius: 9999px;
   padding: 4px;
-  gap: 6px;
+  gap: 1px;
   position: absolute !important;
   left: 50% !important;
   transform: translateX(-50%) !important;
-  width: 65px !important;
+  width: 99px !important;
   z-index: 20;
-  height: 35px;
+  height: 33px;
 } 
 .custom-pagination .swiper-pagination-bullet {
   width: 14px;
@@ -181,4 +181,35 @@
         flex-shrink: 0;
         padding-inline: 1rem;
     }
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1600px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1800px;
+  }
 }

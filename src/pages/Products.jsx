@@ -78,7 +78,7 @@ const Products = () => {
 
   return (
     <div>
-      <main className="mx-auto max-w-[88rem] w-full pt-2 px-4">
+      <main className="container px-4 pt-2">
         <section className="relative h-full md:min-h-[80vh] md:p-2 md:pt-8">
           <div className="mx-auto h-full max-w-[150rem] px-2 md:flex">
             <aside className="sticky left-2 top-0 z-50 flex-[clamp(15rem,20vw,20rem)] flex-grow-0 rounded-2xl bg-main">
