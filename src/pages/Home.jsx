@@ -429,7 +429,7 @@ const Home = () => {
                   modules={[EffectFade, Pagination, Autoplay]}
                   effect="fade"
                   autoplay={{ delay: 4000 }}
-                  loop={false}
+                  loop={true}
                   pagination={{
                     clickable: true,
                     el: paginationRef.current,
@@ -437,6 +437,7 @@ const Home = () => {
                   onSwiper={(swiper) => {
                     if (swiper.params.pagination && paginationRef.current) {
                       swiper.params.pagination.el = paginationRef.current;
+                      swiper.pagination.init();
                       swiper.pagination.update();
                     }
                   }}
@@ -447,39 +448,42 @@ const Home = () => {
                       <img
                         src="/Images/02-CPnyTav4.png"
                         alt="Slide 1"
-                        className="object-cover w-full h-full lg:rounded-none xl:rounded-3xl "
+                        className="object-cover w-full h-full lg:rounded-none xl:rounded-3xl"
                       />
-                      <div className="absolute inset-0 bg-black/30 lg:rounded-none xl:rounded-3xl " />
+                      <div className="absolute inset-0 bg-black/30 lg:rounded-none xl:rounded-3xl" />
                     </div>
                   </SwiperSlide>
+
                   <SwiperSlide>
                     <div className="relative w-full h-full">
                       <img
                         src="/Images/01-BOGOJiGn.png"
                         alt="Slide 2"
-                        className="object-cover w-full h-full lg:rounded-none xl:rounded-3xl "
+                        className="object-cover w-full h-full lg:rounded-none xl:rounded-3xl"
                       />
-                      <div className="absolute inset-0 bg-black/30 lg:rounded-none xl:rounded-3xl " />
+                      <div className="absolute inset-0 bg-black/30 lg:rounded-none xl:rounded-3xl" />
                     </div>
                   </SwiperSlide>
+
                   <SwiperSlide>
                     <div className="relative w-full h-full">
                       <img
                         src="/Images/t2.jpg"
-                        alt="Slide 2"
-                        className="object-cover w-full h-full lg:rounded-none xl:rounded-3xl "
+                        alt="Slide 3"
+                        className="object-cover w-full h-full lg:rounded-none xl:rounded-3xl"
                       />
-                      <div className="absolute inset-0 bg-black/30 lg:rounded-none xl:rounded-3xl " />
+                      <div className="absolute inset-0 bg-black/30 lg:rounded-none xl:rounded-3xl" />
                     </div>
                   </SwiperSlide>
+
                   <SwiperSlide>
                     <div className="relative w-full h-full">
                       <img
                         src="/Images/t4.jpg"
-                        alt="Slide 2"
-                        className="object-cover w-full h-full lg:rounded-none xl:rounded-3xl "
+                        alt="Slide 4"
+                        className="object-cover w-full h-full lg:rounded-none xl:rounded-3xl"
                       />
-                      <div className="absolute inset-0 bg-black/30 lg:rounded-none xl:rounded-3xl " />
+                      <div className="absolute inset-0 bg-black/30 lg:rounded-none xl:rounded-3xl" />
                     </div>
                   </SwiperSlide>
                 </Swiper>
