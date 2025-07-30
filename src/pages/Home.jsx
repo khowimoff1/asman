@@ -173,7 +173,7 @@ const Home = () => {
   return (
     <div className="container">
       <header
-        className="relative z-20 flex items-center justify-between py-4 pl-10 max-xl:bg-zinc-900/70"
+        className="relative z-20 flex items-center justify-between py-4 pl-10 md:pl-20 max-xl:bg-zinc-900/70"
         data-aos="fade-down"
       >
         <NavLink to="/">
