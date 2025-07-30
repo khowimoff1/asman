@@ -440,6 +440,10 @@ const Home = () => {
                       swiper.pagination.init();
                       swiper.pagination.update();
                     }
+
+                    if (swiper.autoplay) {
+                      swiper.autoplay.start();
+                    }
                   }}
                   className="w-full h-full overflow-hidden lg:rounded-none xl:rounded-3xl banner-clip"
                 >
