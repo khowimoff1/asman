@@ -1453,7 +1453,7 @@ const Home = () => {
         </section>
         <ContactForm />
         <section className="px-4 pt-6 md:pt-12">
-          <div className="w-full xl:container">
+          <div className="container w-full">
             <div className="flex items-center">
               <h2 className="primary-title" data-aos="fade-right">
                 {t("news.Company")}
@@ -1575,7 +1575,7 @@ const Home = () => {
           </div>
         </section>
         <section className="px-4 py-10">
-          <div className="w-full xl:container">
+          <div className="container w-full">
             <div
               className="grid items-start gap-5 md:grid-cols-2"
               data-aos="fade-up"
@@ -1827,7 +1827,7 @@ const Home = () => {
           </div>
         </section>
         <section className="px-4 py-10">
-          <div className="w-full xl:container">
+          <div className="container w-full">
             <iframe
               data-aos="zoom-out"
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d57779.96360639857!2d70.9866613386244!3d40.437967566200314!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDI3JzE1LjEiTiA3McKwMDEnMTguMCJF!5e0!3m2!1sru!2s!4v1572877892874!5m2!1sru!2s"

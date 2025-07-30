@@ -67,7 +67,7 @@ const ContactForm = () => {
 
   return (
     <section className="px-4 py-8 md:py-20">
-      <div className="w-full xl:container">
+      <div className="container w-full">
         <div className="grid gap-4 md:justify-between md:grid-cols-2 md:gap-8 lg:gap-16">
           <div className="max-md:hidden" data-aos="fade-right">
             <h2 className="primary-title">
